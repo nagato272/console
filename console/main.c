@@ -25,7 +25,7 @@
 #ifndef checker
 	#define checker(x, msg) if(x) { perror(msg); _exit(EXIT_FAILURE); }
 #else
-	#error, "COST MAX ALREADY DEFINED"
+	#error, "COST checker ALREADY DEFINED"
 #endif
 
 
